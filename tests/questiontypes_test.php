@@ -29,6 +29,7 @@ use mod_questionnaire\question\question;
 
 global $CFG;
 require_once($CFG->dirroot.'/mod/questionnaire/locallib.php');
+require_once($CFG->dirroot.'/mod/questionnaire/classes/question/question.php'); // Import type question ids.
 
 /**
  * Unit tests for {@link questionnaire_questiontypes_testcase}.
