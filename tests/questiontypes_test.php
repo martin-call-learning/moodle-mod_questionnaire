@@ -90,6 +90,9 @@ class mod_questionnaire_questiontypes_testcase extends advanced_testcase {
         $this->create_test_question(QUESYESNO, '\\mod_questionnaire\\question\\yesno', array('content' => 'Enter yes or no'));
     }
 
+    public function test_create_question_file() {
+        $this->create_test_question(QUESFILE, '\\mod_questionnaire\\question\\file', []);
+    }
 
     // General tests to call from specific tests above.
 
